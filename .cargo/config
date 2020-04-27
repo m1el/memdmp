@@ -1,0 +1,8 @@
+[target.'cfg(windows)']
+rustflags = [
+    "-Ctarget-feature=+crt-static",
+    "-Clto=fat",
+    "-Clink-arg=/nodefaultlib",
+    "-Clink-arg=/entry:wmain",
+    "--emit=obj",
+]

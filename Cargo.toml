@@ -1,0 +1,12 @@
+[package]
+name = "memdmp"
+version = "0.1.0"
+authors = ["Igor null <m1el.2027@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "memdmp"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
